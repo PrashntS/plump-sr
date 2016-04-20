@@ -1,0 +1,23 @@
+{
+  "name": "plump-sr",
+  "version": "1.0.0",
+  "description": "Mr. Plump Senior is a ridiculous implementation of FAT file system in coffeescript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prashant Sinha",
+  "license": "MIT",
+  "dependencies": {
+    "auto-reload-brunch": "^2.2.0",
+    "brunch": "^2.6.6",
+    "coffee-script-brunch": "^2.0.0",
+    "coffeelint-brunch": "^2.0.0",
+    "css-brunch": "^2.6.1",
+    "javascript-brunch": "^2.0.0",
+    "jquery": "^2.2.3",
+    "lodash": "^4.11.1",
+    "normalize.css": "^4.1.1",
+    "stylus-brunch": "^2.6.0"
+  }
+}
