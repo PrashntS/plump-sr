@@ -16,3 +16,9 @@ html(lang='en')
   body
     h1= {{cookiecutter.project_name}}
     p= {{cookiecutter.project_short_description}}
+
+    script(type='text/javascript', src='js/libraries.js')
+    script(type='text/javascript', src='js/app.js')
+    script
+      var app = require('app');
+      app.init();

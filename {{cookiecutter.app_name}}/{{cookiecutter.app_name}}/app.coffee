@@ -3,6 +3,6 @@
 
 App =
   init: ->
-    console.log "done"
+    console.log "init success"
 
 module.exports = App
