@@ -11,6 +11,8 @@ module.exports = config:
     coffeelint:
       pattern: /^{{cookiecutter.app_name}}\/.*\.(coffee)$/
       useCoffeelintJson: yes
+    jaded:
+      staticPatterns: /^{{cookiecutter.app_name}}\/markup\/(.*)\.jade$/
 
   npm:
     enabled: yes

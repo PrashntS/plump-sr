@@ -18,7 +18,7 @@
     "css-brunch": "^2.6.1",
     "javascript-brunch": "^2.0.0",
     "jquery": "^2.2.3",
-    "jade-brunch": "^2.0.0",
+    "jaded-brunch": "^2.3.0",
     "lodash": "^4.11.1",
     "normalize.css": "^4.1.1",
     "stylus-brunch": "^2.6.0"
