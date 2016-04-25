@@ -4,23 +4,29 @@
   "description": "{{cookiecutter.project_short_description}}",
   "main": "{{cookiecutter.app_name}}/app.coffee",
   "scripts": {
-    "start": "brunch watch",
-    "serve": "brunch watch -s",
-    "build": "brunch build"
+    "start": "brunch w -s",
+    "build": "brunch b -p",
+    "deploy": "sh deploy.sh"
   },
-  "author": "{{cookiecutter.project_name}}",
+  "author": "{{cookiecutter.full_name}} <{{cookiecutter.email}}>",
   "license": "MIT",
+  "repository": "{{cookiecutter.github_username}}/{{cookiecutter.app_name}}",
   "dependencies": {
     "auto-reload-brunch": "^2.2.0",
-    "brunch": "^2.6.6",
+    "autoprefixer": "^6.3.6",
+    "brunch": "github:brunch/brunch#aaaee25",
+    "clean-css-brunch": "^2.0.0",
     "coffee-script-brunch": "^2.0.0",
     "coffeelint-brunch": "^2.0.0",
     "css-brunch": "^2.6.1",
     "javascript-brunch": "^2.0.0",
+    "jeet": "^6.1.2",
     "jquery": "^2.2.3",
     "jaded-brunch": "^2.3.0",
     "lodash": "^4.11.1",
     "normalize.css": "^4.1.1",
-    "stylus-brunch": "^2.6.0"
+    "postcss-brunch": "^0.5.0",
+    "stylus-brunch": "^2.6.0",
+    "uglify-js-brunch": "^2.0.1"
   }
 }

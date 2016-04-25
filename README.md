@@ -4,7 +4,7 @@ A cookiecutter template for webapps.
 
 ## Stack
 - Coffeescript
-- Stylus
+- Stylus with Jeet grids
 - Jade
 - Brunch Build system
 - Unittests with Mocha and Chai
