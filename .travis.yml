@@ -1,8 +1,14 @@
-language: node_js
+language: python
+python:
+  - "2.7"
+  - "3.5"
+install:
+  - pip install cookiecutter
 script:
-  - npm build
+  - cd $TRAVIS_BUILD_DIR
+  - cookiecutter --no-input https://github.com/PrashntS/plump-sr.git
 notifications:
   email:
-    recipients: {{cookiecutter.email}}
+    recipients: prashantsinha@outlook.com
     on_success: change
     on_failure: change
