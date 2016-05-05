@@ -1,15 +1,17 @@
 language: python
 python:
-  - "2.7"
   - "3.5"
 install:
+  - . $HOME/.nvm/nvm.sh
+  - nvm install stable
+  - nvm use stable
   - pip install cookiecutter
 script:
   - cd $TRAVIS_BUILD_DIR
   - cookiecutter --no-input https://github.com/PrashntS/plump-sr.git
   - cd plumpsr
   - npm install
-  - npm run build
+  - brunch b
 notifications:
   email:
     recipients: prashantsinha@outlook.com
