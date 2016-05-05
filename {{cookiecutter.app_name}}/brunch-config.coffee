@@ -1,4 +1,3 @@
-#!/usr/bin/env coffee
 # {{cookiecutter.project_name}}
 
 module.exports = config:
@@ -12,13 +11,16 @@ module.exports = config:
       pattern: /^{{cookiecutter.app_name}}\/.*\.(coffee)$/
       useCoffeelintJson: yes
     jaded:
-      staticPatterns: /^{{cookiecutter.app_name}}\/markup\/(.*)\.jade$/
+      staticPatterns: /^{{cookiecutter.app_name}}\/markup\/([\d\w]*)\.jade$/
     postcss:
       processors: [
         require('autoprefixer')(['last 8 versions'])
       ]
     stylus:
-      plugins: ['jeet']
+      plugins: [
+        'jeet'
+        'bootstrap-styl'
+      ]
 
   npm:
     enabled: yes

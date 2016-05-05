@@ -1,0 +1,12 @@
+/* TEAM */
+  Developer: {{cookiecutter.full_name}}
+  GitHub: @{{cookiecutter.github_username}}
+  Website: {{cookiecutter.website}}
+  Source: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.app_name}}
+  From: New Delhi, India
+
+/* THANKS */
+  ...
+
+/* SITE */
+  ...

@@ -7,6 +7,9 @@ install:
 script:
   - cd $TRAVIS_BUILD_DIR
   - cookiecutter --no-input https://github.com/PrashntS/plump-sr.git
+  - cd plump-sr
+  - npm install
+  - npm run build
 notifications:
   email:
     recipients: prashantsinha@outlook.com

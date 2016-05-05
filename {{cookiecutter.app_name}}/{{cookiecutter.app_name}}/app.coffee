@@ -1,4 +1,3 @@
-#!/usr/bin/env coffee
 # {{cookiecutter.project_name}}
 
 App =
