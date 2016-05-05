@@ -15,7 +15,7 @@
     "auto-reload-brunch": "^2.2.0",
     "autoprefixer": "^6.3.6",
     "bootstrap-styl": "^5.0.5",
-    "brunch": "github:brunch/brunch#aaaee25",
+    "brunch": "brunch/brunch#aaaee25",
     "clean-css-brunch": "^2.0.0",
     "coffee-script-brunch": "^2.0.0",
     "coffeelint-brunch": "^2.0.0",
