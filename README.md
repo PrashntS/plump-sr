@@ -2,6 +2,8 @@
 
 A cookiecutter template for webapps.
 
+[![Build](https://travis-ci.org/PrashntS/plump-sr.svg?branch=master)](https://travis-ci.org/PrashntS/plump-sr)
+
 ## Stack
 - Coffeescript
 - Stylus with Jeet grids
